@@ -1,0 +1,36 @@
+{
+    "resourceType": "Organization",
+    "id": "EPS-22222",
+    "name": "Salud Cooperativa",
+    "type": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                    "code": "pay",
+                    "display": "Payer"
+                }
+            ],
+            "text": "Aseguradora de salud"
+        }
+    ],
+    "address": [
+        {
+            "text": "Carrera 7a #142-78",
+            "city": "Bogota",
+            "country": "Colombia"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+987654321",
+            "use": "work"
+        },
+        {
+            "system": "email",
+            "value": "info@saludcooperativa.org",
+            "use": "work"
+        }
+    ]
+}

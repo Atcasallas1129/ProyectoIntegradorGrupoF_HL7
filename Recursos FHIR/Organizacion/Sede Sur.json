@@ -1,0 +1,45 @@
+{
+    "resourceType": "Organization",
+    "id": "1100155555-3",
+    "name": "ACME Salud - Sede Sur",
+    "type": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                    "code": "prov",
+                    "display": "Healthcare Provider"
+                }
+            ],
+            "text": "Institución prestadora de servicios de salud"
+        }
+    ],
+    "address": [
+        {
+            "text": "Calle 25 sur #72f-87",
+            "city": "Bogota",
+            "country": "Colombia"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+112345678",
+            "use": "work"
+        },
+        {
+            "system": "email",
+            "value": "contacto@acmesalud.org",
+            "use": "work"
+        },
+        {
+            "system": "url",
+            "value": "https://www.acmesalud.org",
+            "use": "work"
+        }
+    ],
+    "partOf": {
+        "reference": "Organization/1100155555-0",
+        "display": "ACME Salud"
+    }
+}

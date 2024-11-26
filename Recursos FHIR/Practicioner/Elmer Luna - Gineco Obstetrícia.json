@@ -1,0 +1,67 @@
+{
+    "resourceType": "Practitioner",
+    "id": "GCP111222333",
+    "identifier": [
+        {
+            "system": "http://www.acme-salud.com/professional-id",
+            "value": "111222333"
+        }
+    ],
+    "active": true,
+    "name": [
+        {
+            "use": "official",
+            "family": "Casas",
+            "given": [
+                "Gregorio"
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+123456789",
+            "use": "work"
+        },
+        {
+            "system": "email",
+            "value": "gregorio.casas@acme-salud.com",
+            "use": "work"
+        }
+    ],
+    "address": [
+        {
+            "use": "work",
+            "line": [
+                "Clínica Norte, Calle 123 #45-67"
+            ],
+            "city": "Ciudad",
+            "postalCode": "000000",
+            "country": "Colombia"
+        }
+    ],
+    "gender": "male",
+    "qualification": [
+        {
+            "identifier": [
+                {
+                    "system": "http://www.acme-salud.com/qualifications",
+                    "value": "PED-111222333"
+                }
+            ],
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0360/2.7",
+                        "code": "PED",
+                        "display": "Pediatrics"
+                    }
+                ],
+                "text": "Especialista en Pediatría"
+            },
+            "issuer": {
+                "display": "Universidad Nacional de Medicina"
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "resourceType": "Organization",
+    "id": "EPS-111111",
+    "name": "Salud Completa",
+    "type": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                    "code": "pay",
+                    "display": "Payer"
+                }
+            ],
+            "text": "Aseguradora de salud"
+        }
+    ],
+    "address": [
+        {
+            "text": "Calle 123 #45-86",
+            "city": "Bogotá",
+            "country": "Colombia"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+123456789",
+            "use": "work"
+        },
+        {
+            "system": "email",
+            "value": "contacto@saludcompleta.org",
+            "use": "work"
+        }
+    ]
+}
