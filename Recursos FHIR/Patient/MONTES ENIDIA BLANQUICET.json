@@ -1,0 +1,152 @@
+{
+    "resourceType": "Patient",
+    "id": "CC23196152",
+    "identifier": [
+        {
+            "use": "official",
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "PN",
+                        "display": "Person Number"
+                    },
+                    {
+                        "system": "http://co.fhir.guide/core/CodeSystem/PersonIdentifierTypes",
+                        "code": "CC",
+                        "display": "Cédula de Ciudadania"
+                    }
+                ]
+            },
+            "system": "http://co.fhir.guide/core/NamingSystem/RNEC",
+            "value": "23196152",
+            "period": {
+                "start": "2016-05-23"
+            }
+        },
+        {
+            "use": "usual",
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "MR",
+                        "display": "Medical record number"
+                    }
+                ]
+            },
+            "value": "23196152"
+        }
+    ],
+    "active": true,
+    "name": [
+        {
+            "use": "official",
+            "text": " MONTES ENIDIA BLANQUICET",
+            "family": "BLANQUICET",
+            "given": [
+                " MONTES ENIDIA"
+            ]
+        },
+        {
+            "use": "usual",
+            "text": " MONTES ENIDIA"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+57 315 5362529",
+            "use": "mobile",
+            "rank": 1
+        }
+    ],
+    "gender": "female",
+    "birthdate": "1998-05-14",
+    "deceaseboolean": false,
+    "address": [
+        {
+            "use": "home",
+            "line": [
+                "calle 251a # 21-22",
+                "apto 301"
+            ],
+            "city": "bogotá",
+            "state": "cundinamarca",
+            "postalcode": "110111",
+            "country": "co"
+        }
+    ],
+    "maritalstatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/codesystem/v3-maritalstatus",
+                "code": "s",
+                "display": "soltero"
+            }
+        ]
+    },
+    "multiplebirthboolean": false,
+    "photo": [
+        {
+            "contenttype": "image/jpeg",
+            "url": "http://fotos.com/images/danielaalbarracin.jpg",
+            "title": "foto del paciente"
+        }
+    ],
+    "contact": [
+        {
+            "relationship": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/codesystem/v2-0131",
+                            "code": "n",
+                            "display": "familiar"
+                        }
+                    ]
+                }
+            ],
+            "name": {
+                "family": "albarracin",
+                "given": [
+                    "liliana",
+                    "ivonne"
+                ]
+            },
+            "telecom": [
+                {
+                    "system": "phone",
+                    "value": "+57 315 5398211",
+                    "use": "mobile"
+                }
+            ],
+            "address": {
+                "line": [
+                    "calle 161a # 21-22",
+                    "apto 201"
+                ],
+                "city": "bogotá",
+                "state": "cundinamarca",
+                "postalcode": "110111",
+                "country": "co"
+            },
+            "gender ": "female"
+        }
+    ],
+    "communication": [
+        {
+            "language": {
+                "coding": [
+                    {
+                        "system": "urn:ietf:bcp:47",
+                        "code": "es",
+                        "display": "Español"
+                    }
+                ],
+                "text": "Español"
+            },
+            "preferred": true
+        }
+    ]
+}

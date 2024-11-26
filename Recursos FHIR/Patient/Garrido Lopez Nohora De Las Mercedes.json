@@ -1,0 +1,32 @@
+{
+    "resourceType": "Patient",
+    "id": "CC23010929",
+    "name": [
+        {
+            "use": "official",
+            "family": "GARRIDO LOPEZ",
+            "given": [
+                "NOHORA DE LAS MERCEDES"
+            ]
+        }
+    ],
+    "address": [
+        {
+            "use": "home",
+            "line": [
+                "BARRIO RINCO CENTRO"
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "3002688476",
+            "use": "mobile"
+        },
+        {
+            "system": "email",
+            "value": "correo@correo.com"
+        }
+    ]
+}

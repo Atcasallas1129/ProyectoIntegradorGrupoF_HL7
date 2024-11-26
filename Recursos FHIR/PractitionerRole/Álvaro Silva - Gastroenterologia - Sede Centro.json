@@ -1,0 +1,74 @@
+{
+    "resourceType": "PractitionerRole",
+    "id": "PR4-ASP444777333",
+    "practitioner": {
+        "reference": "Practitioner/ASP444777333",
+        "display": "Dr. Álvaro Silva"
+    },
+    "organization": {
+        "reference": "Organization/1100155555-2",
+        "display": "ACME Salud - Sede Centro"
+    },
+    "code": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/practitioner-role",
+                    "code": "gastroenterology",
+                    "display": "Gastroenterology"
+                }
+            ],
+            "text": "Especialista en Gastroenterología"
+        }
+    ],
+    "specialty": [
+        {
+            "coding": [
+                {
+                    "system": "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+                    "code": "GAST",
+                    "display": "Gastroenterology"
+                }
+            ],
+            "text": "Gastroenterología"
+        }
+    ],
+    "healthcareService": [
+        {
+            "reference": "HealthcareService/202411HSER06",
+            "display": "Servicio de Gastroenterología - Sede Centro"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+123456782",
+            "use": "work"
+        },
+        {
+            "system": "email",
+            "value": "alvaro.silva@acme-salud.com",
+            "use": "work"
+        }
+    ],
+    "active": true,
+    "availableTime": [
+        {
+            "daysOfWeek": [
+                "mon",
+                "wed",
+                "fri"
+            ],
+            "availableStartTime": "09:00:00",
+            "availableEndTime": "13:00:00"
+        },
+        {
+            "daysOfWeek": [
+                "tue",
+                "thu"
+            ],
+            "availableStartTime": "14:00:00",
+            "availableEndTime": "18:00:00"
+        }
+    ]
+}

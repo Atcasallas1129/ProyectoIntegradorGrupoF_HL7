@@ -1,0 +1,61 @@
+{
+    "resourceType": "PractitionerRole",
+    "id": "PR8-AT000222333",
+    "practitioner": {
+        "reference": "Practitioner/AT000222333",
+        "display": "Álvaro Tovar"
+    },
+    "organization": {
+        "reference": "Organization/1100155555-2",
+        "display": "ACME Salud - Sede Centro"
+    },
+    "code": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/practitioner-role",
+                    "code": "doctor",
+                    "display": "Doctor"
+                }
+            ],
+            "text": "Médico General"
+        }
+    ],
+    "specialty": [
+        {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "408443003",
+                    "display": "General medical practice"
+                }
+            ],
+            "text": "Práctica médica general"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+573303334455",
+            "use": "work"
+        },
+        {
+            "system": "email",
+            "value": "alvaro.tovar@acmesalud.com",
+            "use": "work"
+        }
+    ],
+    "availableTime": [
+        {
+            "daysOfWeek": [
+                "mon",
+                "tue",
+                "wed",
+                "thu",
+                "fri"
+            ],
+            "availableStartTime": "08:00:00",
+            "availableEndTime": "16:00:00"
+        }
+    ]
+}

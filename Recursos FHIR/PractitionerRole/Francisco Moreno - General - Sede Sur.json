@@ -1,0 +1,61 @@
+{
+    "resourceType": "PractitionerRole",
+    "id": "PR9-FM000333444",
+    "practitioner": {
+        "reference": "Practitioner/FM000333444",
+        "display": "Francisco Moreno"
+    },
+    "organization": {
+        "reference": "Organization/1100155555-3",
+        "display": "ACME Salud - Sede Sur"
+    },
+    "code": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/practitioner-role",
+                    "code": "doctor",
+                    "display": "Doctor"
+                }
+            ],
+            "text": "Médico General"
+        }
+    ],
+    "specialty": [
+        {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "408443003",
+                    "display": "General medical practice"
+                }
+            ],
+            "text": "Práctica médica general"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+573304445566",
+            "use": "work"
+        },
+        {
+            "system": "email",
+            "value": "francisco.moreno@acmesalud.com",
+            "use": "work"
+        }
+    ],
+    "availableTime": [
+        {
+            "daysOfWeek": [
+                "mon",
+                "tue",
+                "wed",
+                "thu",
+                "fri"
+            ],
+            "availableStartTime": "08:00:00",
+            "availableEndTime": "16:00:00"
+        }
+    ]
+}
